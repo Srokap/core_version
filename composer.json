@@ -1,0 +1,24 @@
+{
+	"name": "srokap/core_version",
+	"type": "elgg-plugin",
+	"description": "Elgg plugin, that provides administration panel widget showing current version of Elgg and checking if installation is up to date. Widget is added automatically on plugin activation.",
+	"homepage": "https://github.com/Srokap/core_version",
+	"minimum-stability": "stable",
+	"keywords": ["elgg", "plugin", "administration", "version checker"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Paweł Sroka",
+			"email": "srokap@gmail.com"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/Srokap/core_version/issues"
+	},
+	"autoload": {
+		"classmap": ["classes/"]
+	},
+	"require": {
+		"composer/installers": ">=1.0.8"
+	}
+}
